@@ -16,7 +16,7 @@ public class CovidTest {
 		Covid cc = new Covid();
 		int resultado = cc.calcularPrioridadVacunacion(45,1);
 		int valor_esperado = 3;
-				assertTrue(resultado==valor_esperado);
+			assertTrue(resultado==valor_esperado);
 	}
 	@Test
 	public void testCalcularPrioridadVacunacion2() {
